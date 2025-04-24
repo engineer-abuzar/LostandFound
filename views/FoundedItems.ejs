@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%-locals.title %></title>
+        <link rel="stylesheet" href="../stylesheets/FoundedItems.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="navbar">
+        <a href="/">
+            <img src="./images/suglogo.png" alt="logo" />
+        </a>
+        <h1>Lost And Found System</h1>
+        <form action="/FoundedItems" method="get">
+            <button id="foundeditems">FoundedItems</button>
+        </form>
+        <form action="/LostedItems" method="get">
+          <button id="LostedItems">LostedItems</button>
+      </form>
+        <form action="/" method="get">
+            <button id="Adloginbutton">Home</button>
+        </form>
+        <form action="/Logout" method="get">
+            <button id="logoutbutton">Log Out</button>
+        </form>
+
+      </div> 
+<script src="../javascripts/FoundedItems.js"></script>
+</body>
+</html>
